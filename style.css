@@ -1,5 +1,4 @@
 
-
 body{
     margin: 0px;
     padding: 0px;
@@ -82,7 +81,7 @@ body{
     border-left: 50px solid rgb(223, 13, 65);
     border-right: 50px solid rgb(223, 13, 65);
     border-bottom: 50px solid rgb(223, 13, 65);
-    height: 1100px;
+    height: 740px;
     position: relative;
     top: 529px;
     /* padding: 30px 50px; */
@@ -98,29 +97,114 @@ body{
 
 .imageCovid{
     position: relative;
-    left: 300px;
+    left: 280px;
     width: 50%;
     border: 3px solid rgb(3, 38, 78);
 }
 
+.lastAbout{
+    background-color: rgb(3, 38, 78);
+    position: absolute;
+    top: 1992px;
+}
+
+.lastAbout p{
+    color: #ededed;
+   padding:0 50px;
+   padding-bottom: 40px;
+   text-align: justify;
+}
+
 .imageCovid1{
+    margin-top: 45px;
+    margin-bottom: 5px;
     position: relative;
-    left: 52px;
-    width: 31%;
-    border: 3px solid rgb(3, 38, 78);
+    left: 45px;
+    width: 32%;
+    border: 1px solid rgb(238, 246, 255);
     /* margin-right: 10px; */
 }
 
 .imageCovid2{
+    margin-top: 45px;
+    margin-bottom: 5px;
     position: relative;
-    left: 52px;
-    width: 29%;
-    border: 3px solid rgb(3, 38, 78);
+    left: 45px;
+    width: 30%;
+    border: 1px solid rgb(238, 246, 255);
 }
 
 .imageCovid3{
+    margin-top: 45px;
+    margin-bottom: 5px;
     position: relative;
-    left: 52px;
-    width: 29%;
-    border: 3px solid rgb(3, 38, 78);
+    left: 45px;
+    width: 30%;
+    border: 1px solid rgb(238, 246, 255);
 }
+
+form {
+    position: relative;
+    top: 930px;
+    background-color: #8DC2DB;
+    padding: 15px 500px;
+    padding-bottom: 30px;    
+}
+form h1{
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    width: 100%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(3, 38, 78);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: sans-serif;
+  }
+
+  
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(3, 38, 78);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=Number], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid rgb(3, 38, 78);
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+  
+  input[type=submit] {
+    background-color: rgb(3, 38, 78);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: rgb(3, 38, 78);
+  }
+  
