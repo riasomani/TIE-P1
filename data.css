@@ -1,0 +1,53 @@
+
+body{
+    text-align: center;
+    color: rgb(4, 5, 5);
+    background-color: wheat;
+}
+
+.mid{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(3, 38, 78);
+}
+
+
+.navbar{
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar li a{
+    color: #8DC2DB;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(223, 13, 65) ;
+}
+
+#heading {
+    color: rgb(3, 38, 78);
+}
+
+.table, th, td{
+    border: 2px solid rgb(4, 5, 5);
+    padding: 20px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(4, 5, 5);
+}
+
+h3{
+    color: rgb(3, 38, 78);
+}
